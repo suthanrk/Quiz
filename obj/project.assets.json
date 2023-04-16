@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Web.UI.WebControls/1.0.2.226": {
+        "type": "package",
+        "compile": {
+          "lib/Microsoft.Web.UI.WebControls.dll": {}
+        },
+        "runtime": {
+          "lib/Microsoft.Web.UI.WebControls.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Web.UI.WebControls/1.0.2.226": {
+      "sha512": "OtqE1o+Xfuv3VJyu8PEOPAqI3oRg2gGppik39074IBXyRqGaTmzbek804RYk2wTpV7h0zQo8lypzyucw44pu+w==",
+      "type": "package",
+      "path": "web.ui.webcontrols/1.0.2.226",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Microsoft.Web.UI.WebControls.dll",
+        "web.ui.webcontrols.1.0.2.226.nupkg.sha512",
+        "web.ui.webcontrols.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Web.UI.WebControls >= 1.0.2.226"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\418010\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\418010\\Documents\\Caliber\\WebApp\\MyWebApp\\MyWebApp.csproj",
+      "projectName": "MyWebApp",
+      "projectPath": "C:\\Users\\418010\\Documents\\Caliber\\WebApp\\MyWebApp\\MyWebApp.csproj",
+      "packagesPath": "C:\\Users\\418010\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\418010\\Documents\\Caliber\\WebApp\\MyWebApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\418010\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Web.UI.WebControls": {
+            "target": "Package",
+            "version": "[1.0.2.226, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Web.UI.WebControls 1.0.2.226' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Web.UI.WebControls",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

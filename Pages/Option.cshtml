@@ -1,0 +1,21 @@
+@page
+@model OptionModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Page</title>
+</head>
+<body>
+    <h1>Quiz Page</h1>
+    <form method="post">
+        @for (int i = 0; i < Model.Questions.Length; i++) {
+            <h2>@Model.Questions[i]</h2>
+                @for (int j = 0; j < Model.Answers[i].Length; j++) {
+                    <li><input type="radio" name="answers[@i]" value="@Model.Answers[i][j]"> @Model.Answers[i][j]</li>
+                }
+        }
+        <br><input type="submit" value="Submit">
+    </form>
+</body>
+</html>

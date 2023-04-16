@@ -1,0 +1,7 @@
+@page
+@model RadioModel
+@{
+    ViewData["Title"] = "Radio Button";
+}
+
+<select asp-for="SelectedOption" asp-items="@Model.Radio"></select>
